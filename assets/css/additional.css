@@ -1,0 +1,99 @@
+#project-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    background-color: #292F35;
+}
+.project-title {
+    margin: 70px 0 35px 0;
+}
+
+.content .technologies-used {
+    font-style: italic;
+    font-size: smaller;
+}
+
+#three .about-me-header h2 {
+    border-color: white;
+}
+
+#three .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#three .about-me a {
+    margin-bottom: 70px;
+}
+
+#cta .stacked i {
+    margin-right: 5px;
+}
+
+#footer .contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#menu {
+    background: #4100ce;
+}
+
+#goodhikes-modal,
+#eventwild-modal,
+#esena-modal,
+#chefsbook-modal {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    transition: 0.4s;
+}
+
+.link-container {
+    position: relative;
+    top: 117px;
+}
+
+#goodhikes-modal a,
+#eventwild-modal a,
+#esena-modal a,
+#chefsbook-modal a {
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 35px;
+    background: rgba(66, 75, 84, 0.85);
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#goodhikes-modal a:hover,
+#eventwild-modal a:hover,
+#esena-modal a:hover,
+#chefsbook-modal a:hover {
+    background-color: #5516dc;
+}
+
+.actions .button.primary:active,
+.about-me .button.primary:active,
+#goodhikes-modal a:active,
+#eventwild-modal a:active,
+#esena-modal a:active,
+#chefsbook-modal a:active {
+    background-color: #291b46 !important;
+}
