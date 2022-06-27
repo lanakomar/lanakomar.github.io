@@ -1,1 +1,0 @@
-# lanakomar.github.io
